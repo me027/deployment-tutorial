@@ -1,0 +1,41 @@
+{% extends 'base.html' %}   
+ {% load static %}
+{% block title %}contact{% endblock %}
+ {% block content %} 
+ <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{% static 'images/saru.jpg'%}" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+         
+
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">HELLo!!</div>
+  <div class="card-body">
+    
+    <p class="card-text">You can call this site a "BabyWebsite", coz it does not have much stuff to do. This site is developed (by trial and error!!!) by me, person left to this box.</p>
+  </div>
+</div>
+</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+</div> 
+<div class="alert alert-dark" role="alert">
+  A simple dark alert with <a href="{#}" class="alert-link">mail id</a>. Give it a click if you like.
+</div>
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Contact
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Mobile NO. 7218030804
+    <a class="dropdown-item" href="#">Mail ID: sarveshjnikas1@gmail.com</a>
+    <a class="dropdown-item" href="#">Address: IIT Tirupati.</a>
+  </div>
+</div>     
+{% endblock %}
